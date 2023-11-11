@@ -1,0 +1,40 @@
+.sticky1{
+   top: 61.2969px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: var(--color-light);
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+    z-index: 10;
+    position: sticky;
+}
+
+.V1{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.block1{
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: brandon-grotesque,sans-serif;
+    padding: 0.5rem;
+    background-color: #ebf9f6;
+    border-color: #6bd6c3;
+    border-width: 2px;
+    
+    border-radius: 0.25rem;
+    width: 100%;
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin: 0;
+    font-size: inherit;
+    box-sizing: border-box;
+}
