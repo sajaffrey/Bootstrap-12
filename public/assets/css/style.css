@@ -42,13 +42,24 @@
 }
 
 .grid {
-    gap: 1rem;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    width: 100%;
-    display: grid;
-    list-style: none;
-    padding: 0;
-    box-sizing: border-box;
+-webkit-text-size-adjust: 100%;
+tab-size: 4;
+font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
+font-feature-settings: normal;
+font-variation-settings: normal;
+line-height: inherit;
+border-width: 0;
+border-style: solid;
+border-color: currentColor;
+list-style: none;
+box-sizing: border-box;
+
+/* Grid Styling */
+display: grid;
+width: 100%;
+grid-template-columns: repeat(2, minmax(0, 1fr));
+gap: 1rem;
+
   }
   
   .g2 {
@@ -76,3 +87,5 @@
     width: 100%;
     height: 100%;
   }
+
+  
