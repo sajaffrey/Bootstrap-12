@@ -569,7 +569,7 @@ main .form-group input {
 	padding: 10px 16px;
 	border-radius: 5px;
 	outline: none;
-	background: var(--dark-grey);
+	background: var(--grey);
 	border: none;
 	transition: all .3s ease;
 	width: 100%;
