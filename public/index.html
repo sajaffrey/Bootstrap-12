@@ -13,50 +13,210 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
     
     <!--Title-->
-    <title>Template</title>
+    <title>AdminSite</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
 
 </head>
-<body >
-   
-    <div class="container-fluid">
-        <div class="row">
-          <!-- Sidebar -->
-          <nav class="col-md-2 d-none d-md-block bg-light sidebar">
-            <div class="sidebar-sticky">
-              <ul class="nav flex-column">
-                <li class="nav-item">
-                  <a class="nav-link active" href="#">
-                    Dashboard
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">
-                    Link 1
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">
-                    Link 2
-                  </a>
-                </li>
-                <!-- Add more items as needed -->
-              </ul>
-            </div>
-          </nav>
-      
-          <!-- Main content -->
-          <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-md-4">
-            <!-- Your page content goes here -->
-            <h2>Main Content</h2>
-            <p>Put your content here.</p>
-          </main>
-        </div>
-      </div>
+<body>
 
+  <!-- SIDEBAR -->
+  <section id="sidebar" class="bg-light">
+      <a href="#" class="brand d-flex align-items-center"><i class='bx bxs-smile icon'></i> AdminSite</a>
+      <ul class="side-menu">
+          <li><a href="#" class="active"><i class='bx bxs-dashboard icon' ></i> Dashboard</a></li>
+          <li class="divider" data-text="main">Main</li>
+          <li>
+              <a href="#"><i class='bx bxs-inbox icon' ></i> Elements <i class='bx bx-chevron-right icon-right' ></i></a>
+              <ul class="side-dropdown">
+                  <li><a href="#">Alert</a></li>
+                  <li><a href="#">Badges</a></li>
+                  <li><a href="#">Breadcrumbs</a></li>
+                  <li><a href="#">Button</a></li>
+              </ul>
+          </li>
+          <li><a href="#"><i class='bx bxs-chart icon' ></i> Charts</a></li>
+          <li><a href="#"><i class='bx bxs-widget icon' ></i> Widgets</a></li>
+          <li class="divider" data-text="table and forms">Table and forms</li>
+          <li><a href="#"><i class='bx bx-table icon' ></i> Tables</a></li>
+          <li>
+              <a href="#"><i class='bx bxs-notepad icon' ></i> Forms <i class='bx bx-chevron-right icon-right' ></i></a>
+              <ul class="side-dropdown">
+                  <li><a href="#">Basic</a></li>
+                  <li><a href="#">Select</a></li>
+                  <li><a href="#">Checkbox</a></li>
+                  <li><a href="#">Radio</a></li>
+              </ul>
+          </li>
+      </ul>
+      <div class="ads">
+          <div class="wrapper">
+              <a href="#" class="btn btn-primary btn-upgrade">Upgrade</a>
+              <p>Become a <span>PRO</span> member and enjoy <span>All Features</span></p>
+          </div>
+      </div>
+  </section>
+  <!-- SIDEBAR -->
+
+  <!-- NAVBAR -->
+  <section id="content">
+      <!-- NAVBAR -->
+      <nav class="navbar navbar-light bg-light">
+          <i class='bx bx-menu toggle-sidebar' ></i>
+          <form class="form-inline">
+              <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Search...">
+                  <i class='bx bx-search icon' ></i>
+              </div>
+          </form>
+          <a href="#" class="nav-link">
+              <i class='bx bxs-bell icon' ></i>
+              <span class="badge badge-danger">5</span>
+          </a>
+          <a href="#" class="nav-link">
+              <i class='bx bxs-message-square-dots icon' ></i>
+              <span class="badge badge-info">8</span>
+          </a>
+          <span class="divider"></span>
+          <div class="profile">
+              <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cGVvcGxlfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="" class="rounded-circle">
+              <ul class="profile-link">
+                  <li><a href="#"><i class='bx bxs-user-circle icon' ></i> Profile</a></li>
+                  <li><a href="#"><i class='bx bxs-cog' ></i> Settings</a></li>
+                  <li><a href="#"><i class='bx bxs-log-out-circle' ></i> Logout</a></li>
+              </ul>
+          </div>
+      </nav>
+      <!-- NAVBAR -->
+
+      <!-- MAIN -->
+      <main class="container mt-4">
+          <h1 class="title">Dashboard</h1>
+          <ul class="breadcrumbs">
+              <li><a href="#">Home</a></li>
+              <li class="divider">/</li>
+              <li><a href="#" class="active">Dashboard</a></li>
+          </ul>
+          <div class="info-data">
+              <div class="card">
+                  <div class="head">
+                      <div>
+                          <h2>1500</h2>
+                          <p>Traffic</p>
+                      </div>
+                      <i class='bx bx-trending-up icon' ></i>
+                  </div>
+              </div>
+              <div class="card">
+                  <div class="head">
+                      <div>
+                          <h2>234</h2>
+                          <p>Sales</p>
+                      </div>
+                      <i class='bx bx-trending-down icon down' ></i>
+                  </div>
+              </div>
+              <div class="card">
+                  <div class="head">
+                      <div>
+                          <h2>102</h2>
+                          <p>Orders</p>
+                      </div>
+                      <i class='bx bx-trending-up icon' ></i>
+                  </div>
+              </div>
+              <div class="card">
+                  <div class="head">
+                      <div>
+                          <h2>2000</h2>
+                          <p>Users</p>
+                      </div>
+                      <i class='bx bx-trending-down icon down' ></i>
+                  </div>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-md-6">
+                  <div class="card">
+                      <div class="head">
+                          <h2>Monthly Sales</h2>
+                      </div>
+                      <div class="canvas-container">
+                          <!-- Chart.js canvas -->
+                          <canvas id="monthlySales"></canvas>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-6">
+                  <div class="card">
+                      <div class="head">
+                          <h2>Top Products</h2>
+                      </div>
+                      <ul class="list-group list-group-flush">
+                          <li class="list-group-item">
+                              <span class="badge badge-primary">1</span>
+                              Product 1
+                          </li>
+                          <li class="list-group-item">
+                              <span class="badge badge-secondary">2</span>
+                              Product 2
+                          </li>
+                          <li class="list-group-item">
+                              <span class="badge badge-success">3</span>
+                              Product 3
+                          </li>
+                          <li class="list-group-item">
+                              <span class="badge badge-danger">4</span>
+                              Product 4
+                          </li>
+                          <li class="list-group-item">
+                              <span class="badge badge-warning">5</span>
+                              Product 5
+                          </li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+      </main>
+      <!-- MAIN -->
+
+      <!-- SCRIPTS -->
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+      <!-- Chart.js -->
+      <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+      <script>
+          // Chart.js code here
+          var ctx = document.getElementById('monthlySales').getContext('2d');
+          var myChart = new Chart(ctx, {
+              type: 'line',
+              data: {
+                  labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
+                  datasets: [{
+                      label: 'Monthly Sales',
+                      data: [12, 19, 3, 5, 2, 3, 14],
+                      backgroundColor: [
+                          'rgba(75, 192, 192, 0.2)',
+                      ],
+                      borderColor: [
+                          'rgba(75, 192, 192, 1)',
+                      ],
+                      borderWidth: 1
+                  }]
+              },
+              options: {
+                  scales: {
+                      y: {
+                          beginAtZero: true
+                      }
+                  }
+              }
+          });
+      </script>
+  </section>
   
     <!-- AUDIO -->
     <audio id="" src="" type="audio/"></audio>
