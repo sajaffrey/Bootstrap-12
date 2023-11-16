@@ -277,7 +277,7 @@ nav .nav-link .badge {
 }
 nav .divider {
 	width: 1px;
-	background: var(--grey);
+	background: var(--dark);
 	height: 12px;
 	display: block;
 }
@@ -290,6 +290,7 @@ nav .profile img {
 	border-radius: 50%;
 	object-fit: cover;
 	cursor: pointer;
+	margin-right: 20px;
 }
 nav .profile .profile-link {
 	position: absolute;
@@ -368,6 +369,13 @@ main .info-data .card {
 	box-shadow: 4px 4px 16px rgba(0, 0, 0, .05);
 	transition: all .2s ease-in-out;
 }
+
+.MidHead{
+	display: flex;
+	justify-content:center;
+	align-items: center;
+
+}
 main .info-data .card:hover,
 main .card .head h2:hover,
 main .card .head .icon:hover,
@@ -378,8 +386,7 @@ main .card .head .icon.down:hover {
 }
 main .card .head {
 	display: flex;
-	justify-content: space-between;
-	align-items: flex-start;
+	justify-content:center;
 }
 main .card .head h2 {
 	font-size: 24px;
@@ -435,7 +442,6 @@ main .data .content-data {
 }
 main .content-data .head {
 	display: flex;
-	justify-content: space-between;
 	align-items: center;
 	margin-bottom: 24px;
 }
