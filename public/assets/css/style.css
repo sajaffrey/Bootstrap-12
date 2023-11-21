@@ -1888,8 +1888,12 @@ main .btn-send:hover {
 	nav .divider {
 		display: none;
 	}
-
-
+	#content2,
+	#content3{
+			width: 100%;
+			display: block;
+			margin-bottom: 20px;
+	}
 }
 
 
