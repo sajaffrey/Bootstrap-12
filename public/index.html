@@ -26,7 +26,46 @@
 
   <!-- SIDEBAR -->
   <section id="sidebar" class="bg-dark">
-      <a href="#" class="brand d-flex align-items-center"><i class='bx bxs-smile icon'></i> Dashboard Kit</a>
+    <div class="dashboard-kit">Dashboard Kit</div>
+        <svg
+            class="sheet7"
+            width="255"
+            height="56"
+            viewBox="0 0 255 56"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+        >
+            <path opacity="0.08" d="M0 0H255V56H0V0Z" fill="#9FA2B4" />
+        </svg>
+        <svg
+            class="logo"
+            width="32"
+            height="32"
+            viewBox="0 0 32 32"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+        >
+            <circle cx="16" cy="16" r="16" fill="#3751FF" />
+                <path
+                    d="M11 10C11 9.44772 11.4477 9 12 9H15.9905C18.2127 9 19.9333 9.60955 21.1524 10.8287C22.3841 12.0478 23 13.765 23 15.9803C23 18.2088 22.3841 19.9391 21.1524 21.1713C19.9333 22.3904 18.2127 23 15.9905 23H12C11.4477 23 11 22.5523 11 22V10Z"
+                    fill="url(#paint0_linear_584_285)"
+                />
+            <defs>
+                <linearGradient
+                    id="paint0_linear_584_285"
+                    x1="11"
+                    y1="9"
+                    x2="23"
+                    y2="23"
+                    gradientUnits="userSpaceOnUse"
+                    >
+                    <stop stop-color="white" stop-opacity="0.7" />
+                    <stop offset="1" stop-color="white" />
+                </linearGradient>
+            </defs>
+        </svg>
+
+
       <ul class="side-menu">
           <li><a href="#" class="active"><i class= 'dashboard icon'>
             <svg
@@ -50,7 +89,6 @@
           </svg>
           </i> Overview</a>
             </li>
-            <li class="divider" data-text="main">Main</li>
             <li>
                 <a href="#"><i class='inbox icon'>
                     <svg
@@ -149,7 +187,7 @@
                 </svg>
             </i> Articles</a>
             </li>
-            <li class="divider" data-text="table and forms">Table and forms</li>
+            <li class="divider" data-text="____________________________________________"></li>
             <li><a href="#"><i class='x-table icon'>
                 <svg
                     class="icon-sidebar-inactive-a-1-settings"
@@ -206,8 +244,9 @@
   <!-- NAVBAR -->
     <section id="content">
       <!-- NAVBAR -->
-      <nav class="navbar navbar-light bg-light">
+      <nav class="navbar">
           <i class='bx bx-menu toggle-sidebar' ></i>
+          <h1 class="title38">Overview</h1>  
           <form class="form-inline">
           </form>
           <a href="#" class="nav-link">
@@ -233,9 +272,7 @@
       <!-- NAVBAR -->
          
       <!-- MAIN --> 
-        <main class="container mt-4">
-         <h1 class="title3">Overview</h1>  
-         
+        <main class="container mt-4">         
             <div class="info-data">
               <div class="card">
                   <div class="head">
@@ -287,49 +324,366 @@
               </div>
           </div>
 
-          <div class="row">
-              <div class="col-md-6">
-                  <div class="card">
-                      <div class="head">
-                          <h2>Monthly Sales</h2>
-                      </div>
-                      <div class="canvas-container">
-                          <!-- Chart.js canvas -->
-                          <canvas id="monthlySales"></canvas>
-                      </div>
+
+
+
+
+
+
+
+        
+            <div class="card">
+            <div class="today-s-trends">
+                <div class="cards-default">
+                <div class="sheet"></div>
+                </div>
+                <div class="today-s-trends2">Today’s trends</div>
+                <div class="as-of-25-may-2019-09-41-pm">
+                as of 25 May 2019, 09:41 PM
+                </div>
+                <div class="graph-help">
+                <div class="today2">
+                    <svg
+                    class="divider-graph-horizontal"
+                    width="20"
+                    height="2"
+                    viewBox="0 0 20 2"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    >
+                    <path
+                        d="M1 1H17"
+                        stroke="#3751FF"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                    />
+                    </svg>
+        
+                    <div class="today3">Today</div>
+                </div>
+                <div class="yesterday">
+                    <svg
+                    class="divider-graph-horizontal2"
+                    width="20"
+                    height="2"
+                    viewBox="0 0 20 2"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    >
+                    <path
+                        d="M1 1H17"
+                        stroke="#DFE0EB"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                    />
+                    </svg>
+        
+                    <div class="yesterday2">Yesterday</div>
+                </div>
+                </div>
+                <div class="full-graph">
+                <svg
+                    class="horizontal-lines"
+                    width="830"
+                    height="380"
+                    viewBox="0 0 830 380"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                >
+                    <path d="M0 337H830" stroke="#EBEDF0" />
+                    <path d="M0 281H830" stroke="#EBEDF0" />
+                    <path d="M0 225H830" stroke="#EBEDF0" />
+                    <path d="M0 169H830" stroke="#EBEDF0" />
+                    <path d="M0 113H830" stroke="#EBEDF0" />
+                    <path d="M0 57H830" stroke="#EBEDF0" />
+                    <path d="M0 1H830" stroke="#EBEDF0" />
+                </svg>
+        
+                <svg
+                    class="divider-graph-vertical"
+                    width="3"
+                    height="221"
+                    viewBox="0 0 3 221"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                >
+                    <path d="M1 0L1.99999 220.998" stroke="#EBEDF0" />
+                </svg>
+        
+                <div class="hours">
+                    <div class="_0">0</div>
+                    <div class="_1">1</div>
+                    <div class="_2">2</div>
+                    <div class="_3">3</div>
+                    <div class="_4">4</div>
+                    <div class="_5">5</div>
+                    <div class="_6">6</div>
+                    <div class="_7">7</div>
+                    <div class="_8">8</div>
+                    <div class="_9">9</div>
+                    <div class="_10">10</div>
+                    <div class="_11">11</div>
+                    <div class="_12">12</div>
+                    <div class="_13">13</div>
+                    <div class="_14">14</div>
+                    <div class="_15">15</div>
+                    <div class="_16">16</div>
+                    <div class="_17">17</div>
+                    <div class="_18">18</div>
+                    <div class="_19">19</div>
+                    <div class="_20">20</div>
+                    <div class="_21">21</div>
+                    <div class="_22">22</div>
+                    <div class="_23">23</div>
+                </div>
+                <div class="values">
+                    <div class="_02">0</div>
+                    <div class="_102">10</div>
+                    <div class="_202">20</div>
+                    <div class="_30">30</div>
+                    <div class="_40">40</div>
+                    <div class="_50">50</div>
+                    <div class="_60">60</div>
+                </div>
+                <div class="graphic-main">
+                    <div class="mask"></div>
+                    <div class="graphic-mask">
+                    <svg
+                        class="bg-today"
+                        width="576"
+                        height="285"
+                        viewBox="0 0 576 285"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                    >
+                        <path
+                        opacity="0.1"
+                        d="M94.4767 118.886C47.5588 117.226 2.94296 195.21 -9.1315 227.727V330.5H595.719V74C539.744 71.5 522.042 15.1051 479.134 15.1051C436.227 15.1051 397.488 96.7452 375.639 139.641C357.7 177.832 334.816 185.996 325.616 185.304C282.838 186.964 250.295 101.589 239.37 58.6932C229.711 10.5386 218.836 0.576439 213.496 0.576497C204.538 0.545452 191.072 14.6905 177.273 62.8443C163.474 110.998 141.625 124.42 132.425 125.112C119.557 126.08 104.251 118.886 94.4767 118.886Z"
+                        fill="url(#paint0_linear_584_169)"
+                        />
+                        <defs>
+                        <linearGradient
+                            id="paint0_linear_584_169"
+                            x1="-0.3941"
+                            y1="174.5"
+                            x2="576.103"
+                            y2="174.978"
+                            gradientUnits="userSpaceOnUse"
+                        >
+                            <stop stop-color="#3751FF" />
+                            <stop offset="1" stop-color="#3751FF" stop-opacity="0" />
+                        </linearGradient>
+                        </defs>
+                    </svg>
+        
+                    <svg
+                        class="yesterday-graph"
+                        width="576"
+                        height="145"
+                        viewBox="0 0 576 145"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                    >
+                        <path
+                        d="M-9.1315 56C67.339 18.5 67.8161 109.449 120.303 109.449C172.79 109.449 157.999 54.6887 218.597 45.8444C279.196 37 317.369 144 366.516 144C415.663 144 438.566 0.999969 455.744 0.999969C472.922 0.999969 463.379 73.5 505.845 73.5C548.312 73.5 574.835 25.6604 617.5 24"
+                        stroke="#DFE0EB"
+                        stroke-width="2"
+                        stroke-linejoin="round"
+                        />
+                    </svg>
+        
+                    <svg
+                        class="today-graph"
+                        width="576"
+                        height="230"
+                        viewBox="0 0 576 230"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                    >
+                        <path
+                        d="M-9.1315 228.727C2.88868 196.21 47.3039 118.226 94.0109 119.886C103.742 119.886 118.979 127.08 131.789 126.112C140.947 125.42 162.698 111.998 176.435 63.8443C190.172 15.6905 203.578 1.54545 212.496 1.5765C217.811 1.57644 228.637 11.5386 238.253 59.6932C249.129 102.589 281.526 187.964 324.112 186.304C333.27 186.996 356.051 178.832 373.909 140.641C395.66 97.7452 434.225 16.1051 476.94 16.1051C519.654 16.1051 537.276 72.5 593 75"
+                        stroke="#3751FF"
+                        stroke-width="2"
+                        stroke-linejoin="round"
+                        />
+                    </svg>
+        
+                    <div class="pointer">
+                        <div class="circle-pointer-2"></div>
+                        <div class="circle-pointer-1"></div>
+                        <div class="value">
+                        <svg
+                            class="sheet5"
+                            width="74"
+                            height="46"
+                            viewBox="0 0 74 46"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <g filter="url(#filter0_d_584_176)">
+                            <mask
+                                id="path-1-outside-1_584_176"
+                                maskUnits="userSpaceOnUse"
+                                x="4"
+                                y="2.99997"
+                                width="66"
+                                height="38"
+                                fill="black"
+                            >
+                                <rect
+                                fill="white"
+                                x="4"
+                                y="2.99997"
+                                width="66"
+                                height="38"
+                                />
+                                <path
+                                fill-rule="evenodd"
+                                clip-rule="evenodd"
+                                d="M9 3.99997H65C67.2091 3.99997 69 5.79083 69 7.99997V30C69 32.2091 67.2091 34 65 34L44 34L37.2603 39.7768C37.1105 39.9052 36.8895 39.9052 36.7397 39.7768L30 34L9 34C6.79086 34 5 32.2091 5 30V7.99997C5 5.79083 6.79086 3.99997 9 3.99997Z"
+                                />
+                            </mask>
+                            <path
+                                fill-rule="evenodd"
+                                clip-rule="evenodd"
+                                d="M9 3.99997H65C67.2091 3.99997 69 5.79083 69 7.99997V30C69 32.2091 67.2091 34 65 34L44 34L37.2603 39.7768C37.1105 39.9052 36.8895 39.9052 36.7397 39.7768L30 34L9 34C6.79086 34 5 32.2091 5 30V7.99997C5 5.79083 6.79086 3.99997 9 3.99997Z"
+                                fill="white"
+                            />
+                            <path
+                                d="M65 34V34.5V34ZM44 34V33.5H43.815L43.6746 33.6203L44 34ZM37.2603 39.7768L36.9349 39.3972L36.9349 39.3972L37.2603 39.7768ZM36.7397 39.7768L37.0651 39.3972L37.0651 39.3972L36.7397 39.7768ZM30 34L30.3254 33.6203L30.185 33.5H30V34ZM9 34V34.5V34ZM65 3.49997H9V4.49997H65V3.49997ZM69.5 7.99997C69.5 5.51469 67.4853 3.49997 65 3.49997V4.49997C66.933 4.49997 68.5 6.06697 68.5 7.99997H69.5ZM69.5 30V7.99997H68.5V30H69.5ZM65 34.5C67.4853 34.5 69.5 32.4853 69.5 30H68.5C68.5 31.933 66.933 33.5 65 33.5V34.5ZM44 34.5L65 34.5V33.5L44 33.5V34.5ZM43.6746 33.6203L36.9349 39.3972L37.5857 40.1565L44.3254 34.3796L43.6746 33.6203ZM36.9349 39.3972C36.9724 39.3651 37.0276 39.3651 37.0651 39.3972L36.4143 40.1565C36.7513 40.4454 37.2487 40.4454 37.5857 40.1565L36.9349 39.3972ZM37.0651 39.3972L30.3254 33.6203L29.6746 34.3796L36.4143 40.1565L37.0651 39.3972ZM9 34.5L30 34.5V33.5L9 33.5V34.5ZM4.5 30C4.5 32.4853 6.51472 34.5 9 34.5V33.5C7.067 33.5 5.5 31.933 5.5 30H4.5ZM4.5 7.99997V30H5.5V7.99997H4.5ZM9 3.49997C6.51472 3.49997 4.5 5.51469 4.5 7.99997H5.5C5.5 6.06697 7.067 4.49997 9 4.49997V3.49997Z"
+                                fill="#DFE0EB"
+                                mask="url(#path-1-outside-1_584_176)"
+                            />
+                            </g>
+                            <defs>
+                            <filter
+                                id="filter0_d_584_176"
+                                x="0.5"
+                                y="0.499969"
+                                width="73"
+                                height="44.8732"
+                                filterUnits="userSpaceOnUse"
+                                color-interpolation-filters="sRGB"
+                            >
+                                <feFlood
+                                flood-opacity="0"
+                                result="BackgroundImageFix"
+                                />
+                                <feColorMatrix
+                                in="SourceAlpha"
+                                type="matrix"
+                                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+                                result="hardAlpha"
+                                />
+                                <feOffset dy="1" />
+                                <feGaussianBlur stdDeviation="2" />
+                                <feColorMatrix
+                                type="matrix"
+                                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.08 0"
+                                />
+                                <feBlend
+                                mode="normal"
+                                in2="BackgroundImageFix"
+                                result="effect1_dropShadow_584_176"
+                                />
+                                <feBlend
+                                mode="normal"
+                                in="SourceGraphic"
+                                in2="effect1_dropShadow_584_176"
+                                result="shape"
+                                />
+                            </filter>
+                            </defs>
+                        </svg>
+        
+                        <div class="pointer-value">38</div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                </div>
+                </div>
+                <div class="additional-info">
+                    <div class="resolved">Resolved</div>
+                    <div class="_449">449</div>
+                    <svg
+                      class="divider-line-vertical"
+                      width="1"
+                      height="578"
+                      viewBox="0 0 1 578"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path d="M0 0V578" stroke="#DFE0EB" />
+                    </svg>
+          
+                    <svg
+                      class="divider-line-horizontal7"
+                      width="342"
+                      height="2"
+                      viewBox="0 0 342 2"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path d="M0 1H342" stroke="#DFE0EB" />
+                    </svg>
+          
+                    <div class="received">Received</div>
+                    <div class="_426">426</div>
+                    <svg
+                      class="divider-line-horizontal8"
+                      width="342"
+                      height="2"
+                      viewBox="0 0 342 2"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path d="M0 1H342" stroke="#DFE0EB" />
+                    </svg>
+          
+                    <div class="average-first-response-time">
+                      Average first response time
+                    </div>
+                    <div class="_33-m">33m</div>
+                    <svg
+                      class="divider-line-horizontal9"
+                      width="342"
+                      height="2"
+                      viewBox="0 0 342 2"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path d="M0 1H342" stroke="#DFE0EB" />
+                    </svg>
+          
+                    <div class="average-response-time">Average response time</div>
+                    <div class="_3-h-8-m">3h 8m</div>
+                    <div class="resolution-within-sla">Resolution within SLA</div>
+                    <div class="_94">94%</div>
+                    <svg
+                      class="divider-line-horizontal10"
+                      width="342"
+                      height="2"
+                      viewBox="0 0 342 2"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path d="M0 1H342" stroke="#DFE0EB" />
+                    </svg>
                   </div>
-              </div>
-      
-              <div class="col-md-6">
-                  <div class="card">
-                      <div class="head">
-                          <h2>Top Products</h2>
-                      </div>
-                      <ul class="list-group list-group-flush">
-                          <li class="list-group-item">
-                            <p >Resolution within SLA</p>
-                             449
-                          </li>
-                          <li class="list-group-item">
-                            <p>Resolution within SLA</p>
-                              426
-                          </li>
-                          <li class="list-group-item">
-                            <p>Resolution within SLA</p>
-                              33m
-                          </li>
-                          <li class="list-group-item">
-                            <p>Average response time</p>
-                              3h 8m
-                          </li>
-                          <li class="list-group-item">
-                              <p>Resolution within SLA</p>
-                              94%
-                          </li>
-                      </ul>
-                  </div>
-              </div>
+                </div>
             </div>
+
+
+
+
+
+
+
+
+
+          
+          
             <div class="box42">
 
                 <!-- bottem ticket -->
