@@ -364,6 +364,24 @@ nav .profile .profile-link a:hover {
 
 
 /* MAIN */
+.icon-cursor-pointing-hand {
+	width: 16px;
+	height: 16px;
+	position: absolute;
+	right: 690px;
+	top: 75px;
+  }
+  .group {
+	height: auto;
+	position: absolute;
+	right: 4.32%;
+	left: 6.25%;
+	width: 89.43%;
+	bottom: 2.39%;
+	top: 2.19%;
+	height: 95.43%;
+	overflow: visible;
+  }
 .card {
 	padding: 15px;
 }
@@ -1526,11 +1544,11 @@ main .btn-send:hover {
   }
   .graphic-mask {
 	width: 626.63px;
-	height: 329.92px;
+	height: 320px;
 	position: static;
   }
   .bg-today {
-	height: 329.92px;
+	height: 320px;
 	position: absolute;
 	right: 90.28px;
 	left: -9.131500244140625px;
@@ -1567,7 +1585,7 @@ main .btn-send:hover {
 	width: 24px;
 	height: 24px;
 	position: absolute;
-	right: 260px;
+	right: 350px;
 	top: 122px;
   }
   .circle-pointer-1 {
@@ -1579,7 +1597,7 @@ main .btn-send:hover {
 	width: 14px;
 	height: 14px;
 	position: absolute;
-	right: 265px;
+	right: 355px;
 	top: 127px;
 	box-shadow: 0px 1px 2px 0px rgba(55, 81, 255, 0.2);
   }
