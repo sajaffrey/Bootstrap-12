@@ -8,7 +8,7 @@
 }
 
 :root {
-	--grey: #F1F0F6;
+	--grey: #F7F8FC;
 	--dark-grey: #8D8D8D;
 	--light: #fff;
 	--dark: #000;
@@ -358,9 +358,103 @@ nav .profile .profile-link a:hover {
 	font-size: 20px;
 	letter-spacing: 0.3px;
 	}
+
 /* NAVBAR */
+.header-default {
+    position: relative;
+    width: 1122px;
+    height: 44px;
+}
 
+.header-default .photo {
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    top: 0;
+    left: 1078px;
+}
 
+.header-default .overlap-group {
+    position: relative;
+    width: 47px;
+    height: 47px;
+    top: 10px;
+    left: -2px;
+    border-radius: 23.5px;
+}
+
+.header-default .avatar-man-header {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 4px;
+    left: 510px;
+}
+
+.header-default .name {
+    position: absolute;
+    width: 109px;
+    top: 22px;
+    left: 1450px;
+    font-family: var(--semibold-14-0-2-px-font-family);
+    font-weight: var(--semibold-14-0-2-px-font-weight);
+    color: var(--grayscale-black);
+    font-size: var(--semibold-14-0-2-px-font-size);
+    text-align: right;
+    letter-spacing: var(--semibold-14-0-2-px-letter-spacing);
+    line-height: var(--semibold-14-0-2-px-line-height);
+    white-space: nowrap;
+    font-style: var(--semibold-14-0-2-px-font-style);
+}
+
+.header-default .divider-line {
+    position: absolute;
+    width: 2px;
+    height: 32px;
+    top: 20px;
+    left: 1410px;
+}
+
+.header-default .icon-notifications {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: 22px;
+    left: 1350px;
+}
+
+.header-default .icon-search {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 22px;
+    left: 1300px;
+}
+
+.header-default .search {
+    width: 15px;
+    height: 15px;
+}
+
+.header-default .div {
+    position: relative;
+    width: 16px;
+    height: 16px;
+}
+
+	.label .title {
+	position: absolute;
+	width: 771px;
+	top: 30px;
+	left: -280px;
+	font-family: "Muli-Bold", Helvetica;
+	font-weight: 700;
+	color: var(--grayscale-black);
+	font-size: 24px;
+	letter-spacing: 0.3px;
+	line-height: normal;
+	}
+	
 
 /* MAIN */
 .icon-cursor-pointing-hand {
@@ -1584,7 +1678,7 @@ main .btn-send:hover {
 	width: 24px;
 	height: 24px;
 	position: absolute;
-	right: 350px;
+	right: 441px;
 	top: 122px;
   }
   .circle-pointer-1 {
@@ -1596,7 +1690,7 @@ main .btn-send:hover {
 	width: 14px;
 	height: 14px;
 	position: absolute;
-	right: 355px;
+	right: 446px;
 	top: 127px;
 	box-shadow: 0px 1px 2px 0px rgba(55, 81, 255, 0.2);
   }
@@ -1611,7 +1705,7 @@ main .btn-send:hover {
 	width: 64px;
 	height: 35.87px;
 	position: absolute;
-	left: 1px;
+	left: -180px;
 	top: 1px;
 	overflow: visible;
   }
@@ -1621,7 +1715,7 @@ main .btn-send:hover {
 	font: var(--semibold-14-0-2-px, 600 14px/20px "Muli-SemiBold", sans-serif);
 	position: absolute;
 	right: 13px;
-	left: 13px;
+	left: -350px;
 	bottom: 14px;
 	top: 8px;
 	display: flex;
