@@ -285,7 +285,7 @@ nav .nav-link {
 	position: relative;
 }
 nav .nav-link .icon {
-	font-size: 18px;
+	font-size: 20px;
 	color: var(--dark);
 }
 nav .nav-link .badge {
@@ -388,14 +388,14 @@ nav .profile .profile-link a:hover {
     width: 40px;
     height: 40px;
     top: 4px;
-    left: 510px;
+    left: -30px;
 }
 
 .header-default .name {
     position: absolute;
     width: 109px;
     top: 22px;
-    left: 1450px;
+    left: 900px;
     font-family: var(--semibold-14-0-2-px-font-family);
     font-weight: var(--semibold-14-0-2-px-font-weight);
     color: var(--grayscale-black);
@@ -412,7 +412,7 @@ nav .profile .profile-link a:hover {
     width: 2px;
     height: 32px;
     top: 20px;
-    left: 1410px;
+    left: 860px;
 }
 
 .header-default .icon-notifications {
@@ -420,15 +420,15 @@ nav .profile .profile-link a:hover {
     width: 18px;
     height: 18px;
     top: 22px;
-    left: 1350px;
+    left: 800px;
 }
 
 .header-default .icon-search {
     position: absolute;
     width: 16px;
     height: 16px;
-    top: 22px;
-    left: 1300px;
+    top: 24px;
+    left: 750px;
 }
 
 .header-default .search {
@@ -446,7 +446,7 @@ nav .profile .profile-link a:hover {
 	position: absolute;
 	width: 771px;
 	top: 30px;
-	left: -280px;
+	left: -700px;
 	font-family: "Muli-Bold", Helvetica;
 	font-weight: 700;
 	color: var(--grayscale-black);
@@ -1861,26 +1861,111 @@ main .btn-send:hover {
 	overflow: visible;
   }
 
+/* 
+  #navhide{
+	display: none;
+} */
+#onlyphone{
+	display: none;
+}
 
-
-
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 390px) {
 	#content {
 		position: relative;
 		width: calc(100% - 60px);
 		transition: all .3s ease;
 	}
-	nav .nav-link,
-	nav .divider {
-		display: none;
-	}
+	
 	#content2,
 	#content3{
 			width: 100%;
 			display: block;
 			margin-bottom: 20px;
 	}
+
+	#navhide{
+		display: contents;
+	}
+	
+
+.header-default .overlap-group {
+    position: relative;
+    width: 47px;
+    height: 47px;
+    top: 10px;
+    left: -2px;
+    border-radius: 23.5px;
+}
+
+.header-default .avatar-man-header {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 4px;
+    left: -800px;
+}
+
+.header-default .name {
+    position: absolute;
+    width: 109px;
+    top: 60px;
+    left: 200px;
+}
+
+.header-default .divider-line {
+    position: absolute;
+    width: 2px;
+    height: 32px;
+    top: 20px;
+    left: 260px;
+}
+
+.header-default .icon-notifications {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: 22px;
+    left: 230px;
+}
+
+.header-default .icon-search {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 24px;
+    left: 190px;
+}
+
+	.label .title {
+	position: absolute;
+	width: 771px;
+	top: 30px;
+	left: -300px;
+	}
+
+	#charthide{
+		display: none;
+	}
+
+
+	#onlyphone{
+		display: contents;
+		width: 300px;
+		height: 150px;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
 
